@@ -2,6 +2,8 @@ arr = list(map(int, input().split()))
 cnt_arr = [0] * 10
 
 for elem in arr:
+    if elem == 0:
+        break;
     num = elem // 10
     cnt_arr[num] += 1
 
