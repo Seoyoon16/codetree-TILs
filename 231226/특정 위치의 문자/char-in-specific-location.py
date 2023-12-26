@@ -25,5 +25,5 @@ letter = input()
 for i, char in enumerate(arr):
     if char == letter:
         print(i)
-    if letter not in arr:
+if letter not in arr:
         print("None")
