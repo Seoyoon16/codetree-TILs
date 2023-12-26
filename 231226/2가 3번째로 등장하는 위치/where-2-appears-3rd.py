@@ -7,3 +7,4 @@ for i, elem in enumerate(arr):
         cnt += 1
         if cnt == 3:
             print(i+1)
+            break
