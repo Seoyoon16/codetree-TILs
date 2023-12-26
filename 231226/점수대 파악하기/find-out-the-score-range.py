@@ -1,5 +1,5 @@
 arr = list(map(int, input().split()))
-cnt_arr = [0] * 12
+cnt_arr = [0] * 11
 
 for elem in arr:
     cnt_arr[elem//10] += 1
