@@ -1,7 +1,9 @@
+import sys
+
 n = int(input())
 arr = list(map(int, input().split()))
 
-vmax = arr[0]; vcheck = False
+vmax = -sys.maxsize; vcheck = False
 for i in range(1, n):
     cnt = arr.count(arr[i])
     if cnt == 1: 
