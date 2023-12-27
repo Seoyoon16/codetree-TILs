@@ -5,9 +5,9 @@ for elem in arr[1:]:
     if elem == 999 or elem == -999:
         break;
     
-    if elem >= arr[0]:
+    if elem >= vmax:
         vmax = elem
-    if elem <= arr[0]:
+    if elem <= vmin:
         vmin = elem
     
 print(vmax, vmin)
