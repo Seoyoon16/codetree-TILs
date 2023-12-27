@@ -9,5 +9,7 @@ for elem in arr[1:]:
     elif elem == min_val:
         cnt += 1
     else: pass;
-
+if min_val == arr[0]:
+    cnt += 1
+    
 print(min_val, cnt)
