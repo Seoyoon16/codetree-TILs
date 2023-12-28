@@ -23,3 +23,9 @@ for elem in arr_avg:
     asum += elem
 
 print(f"{asum/6:.1f}")
+
+# # 세로 평균
+# for j in range(4):
+# 	sum_val = 0
+# 	for i in range(2):
+# 		sum_val += arr_2d[i][j]
