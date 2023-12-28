@@ -10,3 +10,10 @@ for i in range(4):
         sum_v += arr_2d[j+i][i]
 
 print(sum_v)
+
+
+
+# 합
+# for i in range(4):
+# 	for j in range(i + 1):
+# 		sum_val += arr_2d[i][j]
