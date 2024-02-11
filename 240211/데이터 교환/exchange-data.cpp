@@ -10,6 +10,12 @@ int main() {
     a = temp2;
 
     std::cout << a << std::endl << b << std::endl << c;
+
+    // // 교체
+	// int temp = a;
+	// a = c;
+    // c = b;
+	// b = temp;
     
     return 0;
 }
