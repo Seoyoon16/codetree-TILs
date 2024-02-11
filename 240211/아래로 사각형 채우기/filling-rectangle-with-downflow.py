@@ -9,7 +9,7 @@ num = 1; cnt = 0
 for i in range(n):
     for j in range(n):
         arr[i][j] = num
-        num += 5
+        num += n
     num = 1
     cnt += 1
     num += cnt
