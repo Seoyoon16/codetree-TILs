@@ -29,3 +29,7 @@ else:
         min = a
 
 print(max - min)
+
+# # 활용 1
+# mx = max([len1, len2, len3])
+# mn = min([len1, len2, len3])
