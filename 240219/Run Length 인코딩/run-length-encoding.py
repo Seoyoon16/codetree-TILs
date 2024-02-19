@@ -10,7 +10,7 @@ def RunLengthEncoding(str_):
             cnt = 1
         
         if i == len(str_)-2:
-            res += str_[i] + str(cnt)
+            res += str_[i+1] + str(cnt)
 
     print(len(res))
     print(res)
