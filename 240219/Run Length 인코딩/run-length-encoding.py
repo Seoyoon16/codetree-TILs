@@ -2,6 +2,9 @@
 
 def RunLengthEncoding(str_):
     cnt = 1; res=''
+    if len(str_) == 1:
+        res += str_ + str(1)
+        
     for i in range(len(str_)-1):
         if str_[i] == str_[i+1]:
             cnt += 1
