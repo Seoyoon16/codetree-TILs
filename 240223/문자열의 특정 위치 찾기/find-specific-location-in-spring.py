@@ -7,6 +7,6 @@ for i in range(len(s)):
         break;
 
 if idx == 0:
-    idx = -1
+    idx = "No"
 
 print(idx)
