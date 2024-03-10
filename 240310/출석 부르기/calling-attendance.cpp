@@ -10,6 +10,6 @@ int main() {
     if (num == 1) cout << "John";
     else if (num == 2) cout << "Tom";
     else if (num == 3) cout << "Paul";
-    else cout << "vacancy";
+    else cout << "Vacancy";
     return 0;
 }
