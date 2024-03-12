@@ -27,3 +27,11 @@ int main() {
 
     return 0;
 }
+
+// // 의도
+// cout << (a >= b) << endl;
+// cout << (a > b) << endl;
+// cout << (a <= b) << endl;
+// cout << (a < b) << endl;
+// cout << (a == b) << endl;
+// cout << (a != b) << endl;
