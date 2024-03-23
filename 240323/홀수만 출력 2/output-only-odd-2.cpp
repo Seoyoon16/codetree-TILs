@@ -5,9 +5,9 @@ int main() {
     using namespace std;
 
     int a, b;
-    cin >> a >> b;
+    cin >> b >> a;
 
-    for (int i=a; i>=b; i-=2) cout << i << ' ';
+    for (int i=b; i>=a; i-=2) cout << i << ' ';
 
     return 0;
 }
