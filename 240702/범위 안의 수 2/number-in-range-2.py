@@ -14,12 +14,15 @@
 import statistics
 
 numbers = [int(input()) for _ in range(10)]
+'''
+리스트를 순회하면서 원소를 삭제할 때는,
+1) 새로운 리스트를 생성
+2) 인덱스를 역순으로 순회하며 삭제
 
-for num in numbers:
-    if num < 0 or num > 200:
-        numbers.remove(num)
+'''
+filtered_numbers = [num for num in numbers if 0 <= num <= 200]
 
-total = sum(numbers)
-avg = round(statistics.mean(numbers), 1)
+total = sum(filtered_numbers)
+avg = round(statistics.mean(filtered_numbers), 1)
 
 print(total, avg)
