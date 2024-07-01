@@ -23,6 +23,6 @@ numbers = [int(input()) for _ in range(10)]
 filtered_numbers = [num for num in numbers if 0 <= num <= 200]
 
 total = sum(filtered_numbers)
-avg = round(statistics.mean(filtered_numbers), 1)
+avg = statistics.mean(filtered_numbers)
 
-print(total, avg)
+print(total, f"{avg:.1f}")
