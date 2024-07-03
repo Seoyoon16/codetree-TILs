@@ -9,7 +9,7 @@ int main() {
 
     while (true) {
         cin >> age;
-        if (age >= 30) break;
+        if (age < 20 || age >= 30) break;
         total += age;
         cnt++;
     }
